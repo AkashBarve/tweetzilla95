@@ -7,7 +7,7 @@ var Twitter = new twit(config);
 
 var retweet = function() {
 	var params = {
-		q: 'from:@kumarhanskumar OR from:@OhhJuswe OR from:@akash_barve OR from:@rohith23j OR from:@IngeniousRetard OR #help OR from:@BloodDonorsIn OR donate OR funny OR #meme OR #memes', 
+		q: 'from:@kumarhanskumar OR from:@OhhJuswe OR from:@akash_barve OR from:@rohith23j OR from:@IngeniousRetard OR #help OR from:@BloodDonorsIn OR #donate OR #funny OR #meme OR #memes', 
 		//OR #BadThingsToRegift',
 		// to:@IngeniousRetard from:@IngeniousRetard
 		result_type: 'recent',
