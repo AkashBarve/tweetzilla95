@@ -23,7 +23,7 @@ var retweet = function() {
 				id: retweetId
 			}, function(err, response) {
 				if(response) {
-					console.log('Retweet search success!');
+					console.log('Retweet successful!!');
 				}
 				if (err) {
 					console.log('Something went wrong while Retweeting...');
